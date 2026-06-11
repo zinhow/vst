@@ -1,0 +1,18 @@
+
+.menu-scrollbar[data-v-0515d11e] {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+}
+.menu-scrollbar[data-v-0515d11e]::-webkit-scrollbar {
+    width: 6px;
+}
+.menu-scrollbar[data-v-0515d11e]::-webkit-scrollbar-track {
+    background: transparent;
+}
+.menu-scrollbar[data-v-0515d11e]::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
+.menu-scrollbar[data-v-0515d11e]::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}

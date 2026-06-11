@@ -1,0 +1,13 @@
+
+/*
+ * Touch devices have no hover lift, so translate-y-0 looks identical to the resting state.
+ * Push the element down slightly so quick taps still show a visible sink.
+ */
+.l-hoverable--pressed {
+    transform: translate3d(0, 2px, 0) scale(0.95) !important;
+}
+@media (hover: hover) and (pointer: fine) {
+.l-hoverable--pressed {
+        transform: translate3d(0, 0, 0) scale(0.95) !important;
+}
+}

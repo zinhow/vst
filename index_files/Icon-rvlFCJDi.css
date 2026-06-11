@@ -1,0 +1,6 @@
+
+/** This class is actually from Tailwind. But our Tailwind is outdated and doesn't contain that class. */
+.size-full {
+    width: 100%;
+    height: 100%;
+}
